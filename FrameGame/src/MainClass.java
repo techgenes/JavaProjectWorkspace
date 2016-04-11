@@ -14,6 +14,7 @@ public class MainClass {
 Menu menu=new Menu();
         //JPanel panel=new JPanel();
         //panel.setPreferredSize(new Dimension(600,400));
+
         menu.mainPanel.setPreferredSize(new Dimension(300,400));
         frame.setContentPane(menu.mainPanel);
         frame.pack();
